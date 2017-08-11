@@ -1,0 +1,25 @@
+.dot{position:absolute;top:-5px;width:12px;height:12px;border-radius:50%;background-color:grey;}
+.dot.done{background-color:#7efc2f;}
+.dot.uno{left:0%}
+.dot.dos{left:33.33%}
+.dot.tres{left:66.66%}
+.dot.cuatro{left:100%}
+
+
+/*	COLOR ITEMS INACTIVES  */
+
+.progressbar-item{display:inline-block:color:grey}
+.progressbar-item>a{color:grey}
+
+/*	COLOR ITEMS ACTIVES  */
+
+.progressbar-item.done{color:#7efc2f}
+.progressbar-item.done>a{color:#7efc2f !important;}
+ 
+ 
+ #progress-bar{left:0px;height:2px;bottom:14px;background-color:#7efc2f;}
+ .progressbar-item-text{font-size:80%;font-weight:bold}
+ 
+@media screen and (max-width: 980px) {
+	.progressbar-item-text{display:none}
+}
